@@ -29,15 +29,12 @@ on:
         default: 'xiaoyu_xy-c5'
         type: choice
         options:
-          - 'xiaoyu_xy-c5'
           - 'xiaoyu_xy-c5-Clash'
       Tempoary_FLAG:
         description: '固件标签'
         default: 'AUTO'
         type: choice
         options:
-          - 'AUTO'
-          - 'Full'
           - 'Clash'
       Tempoary_IP:
         description: '固件 IP 地址 [可选]'
